@@ -1,0 +1,28 @@
+"Let's CC" is a search engine service that helps finding contents
+such as images, music, videos, and documents distributed
+under CCL (Creative Commons License) quickly, and easily.
+Copyright (C) 2012 Let's CC
+
+"Let's CC" is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+"Let's CC" is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with "Let's CC".  If not, see <http://www.gnu.org/licenses/>.
+
+-------------------------------------------------------------------------------
+
+Facebook PHP SDK is licensed under the Apache Licence, Version 2.0
+TwitterOAuth is Abraham Williams's PHP library for working with Twitter's OAuth API
+
+jQuery project is licensed under the MIT and GPL licenses.
+The Sizzle selector engine (which is included inside the jQuery library) is held by the Dojo Foundation and is licensed under the MIT, GPL, and BSD licenses.
+jQuery validation plug-in is licensed under the MIT and GPL licenses.
+jQuery pagination plug-in is licensed under the GPL v2.
+json2.js is public domain javascript library.

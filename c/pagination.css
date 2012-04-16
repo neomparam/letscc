@@ -1,0 +1,30 @@
+.pagination {
+	margin:0 auto;
+	text-align:center;
+    font-size: 80%;
+}
+        
+.pagination a {
+    text-decoration: none;
+}
+
+.pagination a, .pagination span {
+	font-family:"Tahoma";
+	font-weight:bold;
+	padding:0 6px 0 7px;	
+	font-size:11px;
+	color:#666;
+}
+
+.pagination .current {
+    color: #ff6600;
+}
+
+.pagination .next {
+	background:url('../i/paging_next.gif') 0px 4px no-repeat;
+	color:white;
+}
+.pagination .prev {
+	background:url('../i/paging_prev.gif') right 4px no-repeat;
+	color:white;
+}

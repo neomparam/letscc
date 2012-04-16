@@ -1,0 +1,107 @@
+/* Default Style *************************************************************************************************************************************/
+A:link    {color:#666666;text-decoration:none;}
+A:visited {color:#666666;text-decoration:none;}
+A:active  {color:#7C756E;text-decoration:none;}
+A:hover   {color:#0000006;text-decoration:underline}
+
+img {border:0px;}
+
+body {margin-top:0; margin-left:0; margin-bottom:0; margin-right:0;}
+body {SCROLLBAR-FACE-COLOR: #FFFFFF; 
+		 SCROLLBAR-HIGHLIGHT-COLOR: #FFFFFF; 
+		 SCROLLBAR-SHADOW-COLOR: #E0E6EB; 
+		 SCROLLBAR-3DLIGHT-COLOR: #E0E6EB; 
+		 SCROLLBAR-ARROW-COLOR: #E0E6EB; 
+		 SCROLLBAR-TRACK-COLOR: #FFFFFF}
+		
+td {font-size: 9pt; color: #555555; line-height: 18px; font-family: "돋움" "Arial"}
+td.background_bottom {background-repeat:no-repeat; background-position:bottom; background-attachment:fixed};
+td.background_img {background-repeat:no-repeat; background-position:left; background-attachment:fixed;};
+td.imgHand{cursor:hand;}
+
+/* TopMenu Text Style *************************************************************************************************************************/
+td.menu {font-size: 10pt; color: #555555; font-weight:bold; font-family: "굴림"}
+td.submenu {font-size: 9pt; color: #FFFFFF; font-weight:bold; font-family: "굴림"}
+td.submenu {font-size: 9pt; color: #FFFFFF; font-family: "굴림"}
+
+
+/* Textarea Style **********************************************************************************************************************************/
+textarea.txstyle1 {background-color:#FFFFFF; border:1px solid #E1E1E1; font-family:"돋움"; font-size:9pt; color: #777777; line-height:18px; LETTER-SPACING: -0.04em; padding:15px;}
+textarea.txstyle2 {background-color:#FFFFFF; border:1px solid #DADADA; font-family:"돋움"; font-size:9pt; color: #777777; line-height:18px; LETTER-SPACING: -0.04em; padding:15px;}
+textarea.txstyle3 {background-color:#FFFFFF; border:1px solid #FFFFFF; font-family:"돋움"; font-size:9pt; color: #666666}
+textarea.txstyle4 {background-color:#F1F1F1; border:1px solid #D6D6D6; font-family:"돋움"; font-size:9pt; color: #555555; line-height:18px; LETTER-SPACING: -0.04em; padding:15px;}
+textarea.txstyle5 {background-color:#F7F2EC; border:1px solid #F7F2EC; font-family:"돋움"; font-size:9pt; color: #938D88; line-height:18px; LETTER-SPACING: -0.04em; padding:5px;}
+
+/* Input Style *************************************************************************************************************************************/
+input.input_style1 {background-color:#FFFFFF; border:1px solid #666666; height:18px; font-family:"돋움"; font-size:9pt; color: #638BA1; line-height:16px; LETTER-SPACING: -0.04em;}
+input.input_style2 {background-color:#FFFFFF; height:18px; border:1px; solid #BBBBBB; font-family:"돋움"; font-size:9pt; color: #666666;}
+input.input_style3 {background-color:#FFFFFF; border:1px solid #e5e5e5; height:18px; font-family:"돋움"; font-size:9pt; color: #638BA1; line-height:16px; LETTER-SPACING: -0.04em;}
+input.input_style4 {background-color:#FFFFFF; border:1px solid #FFFFFF; height:18px; font-family:"돋움"; font-size:9pt; color: #777777; line-height:16px; LETTER-SPACING: -0.04em;}
+input.input_style5 {background-color:#FFFFFF; border:1px solid #D5D5D5; height:18px; font-family:"돋움"; font-size:8.5pt; color: #777777; line-height:16px; LETTER-SPACING: -0.04em;}
+input.input_style6 {background-color:#FFFFFF; height:18px; border:1px solid #acacac; font-family:tahoma, Gulim, dotum;; font-size:9pt; color: #777777;  line-height:16px; LETTER-SPACING: -0.04em;}
+
+
+
+/* login Input Style *************************************************************************************************************************************/
+input.input_login {background-color:#FFFFFF; border:1px solid #e5e5e5; width:170px; height:18px; font-family:"돋움"; font-size:9pt; color: #638BA1; line-height:16px; LETTER-SPACING: -0.04em;}
+
+/* Select Style ************************************************************************************************************************************/
+select.select_white {background-color:#FFFFFF; border:0px solid #FFFFFF; font-family:"돋움"; font-size:8.5pt; color: #4B3DB6; line-height:16px; LETTER-SPACING: -0.04em; padding:5px; border-bottom-color:FFFFFF;}
+select.select_color {background-color:#F7F2EC; border:1px solid #F7F2EC; font-family:"돋움"; font-size:9pt; color: #70654E; line-height:16px; LETTER-SPACING: -0.04em; padding:5px;}
+select.select_review {border:1px solid #CCCCCC; font-family:"돋움"; font-size:8pt; color: #B02832}
+
+/* 경로 *************************************************************************************************************************/
+td.path {font-size: 8pt; color: #999999; font-family: "돋움" "Arial"}
+
+/* 메인 *************************************************************************************************************************/
+td.small {font-size: 8pt; color: #999999; line-height: 14px; font-family:"돋움"}
+td.date {font-size: 8pt; color: #454F6D; font-family: "돋움"}
+
+/* 게시판 *************************************************************************************************************************/
+.a_notice_view1 {color:#777777; font-size:9pt; font-family: tahoma, Gulim, dotum; text-align:center; line-height:32px; width:90px;}
+.a_notice_view2 {color:#777777; font-size:9pt; font-family: tahoma, Gulim, dotum; text-align:left; padding-left:15px; padding-top:10px; padding-bottom:10px; padding-right:10px; line-height:32px;}
+.a_pbtn {background-color:#ffffff; font-size: 9pt; color: #635fb1; font-family: tahoma, Gulim, dotum; text-align:center; line-height:25px;}
+
+/* 메뉴 **************************************************************************************************************************/
+.TopMenu { float:left;width:100px;margin-left:10px; }
+
+/* 게시판 생성 **************************************************************************************************************************/
+.CreateBoard {}
+.CreateBoard div{ float:left;margin-left:50px; }
+.CreateBoard td{ border:1px solid #aaa; }
+
+.CreateBoardTitle { height:30px;width:100px;background-color:#ddd; font-size: 10pt; color: #635fb1; font-family: tahoma, Gulim, dotum; text-align:center;}
+.CreateBoardContent {text-align:left;padding-left:10px;}
+.CreateBoardContent_radio { width:20px; }
+.CreateBoardContent_input {width:150px;}
+.CreateBoardContent_button {width:100px;}
+
+.CreateBoardContent span {font-size: 10pt; color: #ff0000; font-family: tahoma, Gulim, dotum;}
+
+/* 게시판 리스트 **************************************************************************************************************************/
+.BoardList {}
+.BoardList td{ border:1px solid #aaa; }
+.BoardListHead { height:30px;background-color:#ddd; font-size: 10pt; color: #635fb1; font-family: tahoma, Gulim, dotum; text-align:center;}
+.BoardListContent { height:20px; font-size: 10pt; font-family: tahoma, Gulim, dotum; text-align:center;}
+
+
+/* 게시판 리스트 **************************************************************************************************************************/
+.ContentList {}
+.ContentList td{ border:1px solid #aaa; }
+.ContentListTitle { height:30px;width:100px;background-color:#ddd; font-size: 10pt; color: #635fb1; font-family: tahoma, Gulim, dotum; text-align:center;}
+.ContentListContent {text-align:left;padding-left:10px;}
+.ContentListContent_radio { width:20px; }
+.ContentListContent_input {width:150px;}
+.ContentListContent_button {width:100px;}
+
+/* 게시판 쓰기 **************************************************************************************************************************/
+.ContentWrite {}
+.ContentWrite td{ border:1px solid #aaa; }
+.ContentWriteTitle { height:30px;width:100px;background-color:#ddd; font-size: 10pt; color: #635fb1; font-family: tahoma, Gulim, dotum; text-align:center;}
+.ContentWriteTitle_input{width:90%;}
+.ContentWriteContent {text-align:left;}
+.ContentWriteContent_radio { width:20px; }
+.ContentWriteContent_input {width:150px;}
+.ContentWriteContent_input_shot {width:30px;}
+.ContentWriteContent_button {width:100px;}
+.ContentWriteContent_file {width:150px;}
