@@ -18,16 +18,13 @@ $result = array();
 if( $type == "del" ) {
 	$f_result = $Favorite->getDatasFromMemberIdx($member_idx);
 
-	//즐겨찾기 횟수 감소
 	for( $i=0; $i < count($f_result); $i++ ) {
 		$c_idx = $f_result[$i]['c_idx'];
 		$Content->decrementFavorite( $c_idx );
 	}
 
-	//회원의 즐겨찾기 목록 삭제
 	$Favorite->delDatasFromMemberIdx($member_idx);
 
-	//회원 정보
 	if( $Member->delMember($member_idx) ) {
 		$result['r'] = "success";
 		$result['msg'] = "회원정보를 삭제 하였습니다.";
@@ -38,7 +35,4 @@ if( $type == "del" ) {
 }
 
 echo json_encode($result);
-
-//$return_url = ($_SESSION['return_url'])?$_SESSION['return_url']:"/index.php";
-//header('Location: '.$return_url);
 ?>

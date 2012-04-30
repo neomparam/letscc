@@ -210,19 +210,12 @@ CCMyFavoriteSearch.prototype.showPage = function(p) {
 		</ol>
 	</div>
     <div id="body" class="all">
-		<h2 class="title"><img src="i/title_my_favorite.gif" alt="내  즐겨찾기" title="내  즐겨찾기" /></h2>
+		<h2 class="title"><img src="i/title_my_favorite.gif" alt="My Favorites" title="My Favorites" /></h2>
         <div class="desc">
-        	<!-- <span>인기있는CC들을 모아 놓았습니다.</span> --><br/>
+        	<br/>
         	The starred contents can be accessed quickly via ‘My Favorites’.<br/> You can add your own tags on 'My Favorites' and search in favorites. 
         </div>
         <ul id="searchType">
-			<!--
-            <li class="all selected"><a href="#">전체</a></li>
-            <li class="image"><a href="#">이미지</a></li>
-            <li class="music"><a href="#">음악</a></li>
-            <li class="video"><a href="#">동영상</a></li>
-            <li class="doc"><a href="#">문서</a></li>
-			//-->
 			<li class="all selected"><a href="#">all</a></li>
             <li class="image"><a href="#">images</a></li>
             <li class="music"><a href="#">sounds</a></li>
@@ -230,7 +223,7 @@ CCMyFavoriteSearch.prototype.showPage = function(p) {
             <li class="doc"><a href="#">docs</a></li>
         </ul>
         <div id="searchResult">
-			<h2>검색결과</h2>
+			<h2>Search Result</h2>
 			<div class="image type">
 				<h3><a href="">images</a></h3>
 				<div class="no-result">
@@ -291,7 +284,7 @@ CCMyFavoriteSearch.prototype.showPage = function(p) {
 					<legend>Tag search</legend>
 					<div class="search-input">
 						<input type="text" name="k" id="tag" value="<?=htmlspecialchars(stripslashes($keyword))?>" />
-						<input type="submit" id="tagSubmit" value="검색" />
+						<input type="submit" id="tagSubmit" value="Search" />
 					</div>
 				</fieldset>
 			</form>
@@ -331,7 +324,7 @@ CCMyFavoriteSearch.prototype.showPage = function(p) {
 						<dl>
 							<dt><a href="${href}" class="title go-detail">${title}</a></dt>
 							<dd class="desc"><a href="${href}" class="go-detail">${desc}</a></dd>
-							<dd class="hits">read : ${hits}회</dd>
+							<dd class="hits">read : ${hits}</dd>
 							<dd class="image"><a href="${href}" class="go-detail"><img src="${thumb}" width="120" height="85" alt="${title}"	title="${title}" /></a></dd>
 						</dl>
 						<p class="tags">${tags}</p>

@@ -814,9 +814,9 @@ CCFavoriteSearch.prototype.showPage = function(p) {
 <script id="videoFavoriteTemplate" type="text/x-jquery-tmpl">
 					<li class="link-detail">
 						<dl>
-							<dt><a href="${href}" class="title go-detail">${title}</a><a href="#" class="favorite"><img src="i/btn_favorite.gif" width="13" height="13" alt="add favorite"><span>${f_count}<em>${f_count}users marked it as favorite다.</em></span></a></dt>
+							<dt><a href="${href}" class="title go-detail">${title}</a><a href="#" class="favorite"><img src="i/btn_favorite.gif" width="13" height="13" alt="add favorite"><span>${f_count}<em>${f_count}users marked it as favorite.</em></span></a></dt>
 							<dd class="desc"><a href="${href}" class="go-detail">${desc}</a></dd>
-							<dd class="hits">read : ${hits}회</dd>
+							<dd class="hits">read : ${hits}</dd>
 							<dd class="image"><a href="${href}" class="go-detail"><img src="${thumb}" width="125" height="80" alt="${title}"	title="${title}" /></a></dd>
 						</dl>
 					</li>

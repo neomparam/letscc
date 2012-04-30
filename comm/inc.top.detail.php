@@ -338,7 +338,7 @@
 
             <h1><a href="/">Let's CC</a></h1>
             <div id="gnb">
-                <h2>메뉴</h2>
+                <h2>Menu</h2>
                 <ul>
                     <li class="favorite"><a href="">Most Featured</a></li>
 
@@ -346,10 +346,10 @@
                 </ul>
             </div>
 			<div id="joinArea">
-				<h2>회원가입</h2>
+				<h2>Sign Up</h2>
 				<form id="joinForm" name="joinForm" method="post" action="member/join.php">
 				<fieldset>
-					<legend>회원가입 폼</legend>
+					<legend>Sign Up Form</legend>
 					<p>
 						<label for="joinEmail">E-mail</label><input type="text" id="joinEmail" name="joinEmail" /><span class="check"></span>
 						<span class="valid">Insert another available mail account for changing your password.</span>
@@ -367,7 +367,7 @@
 						I agree to terms of use</a>,<a href="#">and privacy policies.</a></label>
 					</p>
 					<p>
-						<input type="button" class="btn-cancel input-button" value="취소" /><input type="submit" class="input-button" value="가입하기" />
+						<input type="button" class="btn-cancel input-button" value="Cancel" /><input type="submit" class="input-button" value="Sign Up" />
 					</p>
 					<p>
 						<a href="/member/oauth/facebook/redirect.php"><img src="http://static.ak.fbcdn.net/rsrc.php/zB6N8/hash/4li2k73z.gif" alt="Sign in with Facebook" title="Sign in with Facebook" /></a>
@@ -377,11 +377,11 @@
 				</form>
 			</div>
 			<div id="joinConfirmArea">
-				<h2>회원가입</h2>
+				<h2>Sign Up</h2>
 				<form id="joinConfirmForm" name="joinConfirmForm" method="post" action="member/join_confirm.php">
 				<input type="hidden" name="user_idx" value="<?=$_SESSION['USER_IDX']?>" />
 				<fieldset>
-					<legend>회원가입 폼</legend>
+					<legend>Sign Up Form</legend>
 					<p>
 						Registration will be done after adding additional information 
 					</p>
@@ -397,16 +397,16 @@
 						I agree to terms of use</a>,<a href="#">and privacy policies.</a></label>
 					</p>
 					<p>
-						<input type="button" class="input-button btn-cancel" value="취소" /><input type="submit" class="input-button btn-ok" value="가입하기" />
+						<input type="button" class="input-button btn-cancel" value="Cancel" /><input type="submit" class="input-button btn-ok" value="Sign Up" />
 					</p>
 				</fieldset>
 				</form>
 			</div>
 			<div id="loginArea">
-				<h2>로그인 하기</h2>
+				<h2>Sign In</h2>
 				<form id="loginForm" name="loginForm" method="post" action="member/login.php">
 				<fieldset>
-					<legend>로그인 폼</legend>
+					<legend>Sign In Form</legend>
 					<p>
 						<label for="loginEmail">E-mail</label><input type="text" id="loginEmail" name="loginEmail" /><span class="check"></span>
 						<span class="valid"></span>
@@ -419,7 +419,7 @@
 						<input type="checkbox" id="autoLogin" name="autoLogin" value='y' /><label for="autoLogin">Check 'remember me' for automatic sign in</label>
 					</p>
 					<p>
-						<input type="button" class="input-button btn-cancel" value="취소" /><input type="submit" class="input-button" value="확인" />
+						<input type="button" class="input-button btn-cancel" value="Cancel" /><input type="submit" class="input-button" value="OK" />
 					</p>
 					<p>
 						<a href="/member/oauth/facebook/redirect.php"><img src="http://static.ak.fbcdn.net/rsrc.php/zB6N8/hash/4li2k73z.gif" alt="Sign in with Facebook" title="Sign in with Facebook" /></a>
@@ -438,7 +438,7 @@
 				<h2>Find my password</h2>
 				<form id="findPasswdForm" name="findPasswdForm" method="post" action="">
 				<fieldset>
-					<legend>비밀번호찾기 폼</legend>
+					<legend>Find my password Form</legend>
 					<p>
 						<span class="message">
 							Insert another available mail account you inserted in</br> registration form for sending temporary password for sign in
@@ -449,16 +449,16 @@
 						<span class="valid"></span>
 					</p>
 					<p>
-						<input type="button" class="input-button btn-cancel" value="취소" /><input type="submit" class="input-button btn-ok" value="전송"  />
+						<input type="button" class="input-button btn-cancel" value="Cancel" /><input type="submit" class="input-button btn-ok" value="OK"  />
 					</p>
 				</fieldset>
 				</form>
 			</div>
 			<div id="favoriteArea">
-				<h2>즐겨찾기 추가</h2>
+				<h2>Add To Favorite</h2>
 				<form id="favoriteForm" name="favoriteForm" method="post" action="">
 				<fieldset>
-					<legend>즐겨찾기 추가 폼</legend>
+					<legend>Add To Favorite Form</legend>
 					<p>
 						<span class="message"></span>
 					</p>
@@ -470,7 +470,7 @@
 						<span class="desc">divide your tags with comma(i.e. flower, start, )</span>
 					</p>
 					<p>
-						<input type="button" class="input-button btn-cancel" value="취소" /><input type="button" class="input-button btn-ok" value="확인"  />
+						<input type="button" class="input-button btn-cancel" value="Cancel" /><input type="button" class="input-button btn-ok" value="OK"  />
 					</p>
 				</fieldset>
 				</form>

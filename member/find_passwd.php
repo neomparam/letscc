@@ -124,7 +124,7 @@
 	<h1><a href="/"><img src="../i/logo_member.jpg" alt="Let's CC" title="Let's CC"/></a></h1>
 	<form name="find_passwd_form" id="find_passwd_form" action="find_passwd_proc.php" method="post">
 	<fieldset>
-		<h2><img src="../i/title_find_passwd.gif" alt="비밀번호 찾기" title="비밀번호 찾기"/></h2>
+		<h2><img src="../i/title_find_passwd.gif" alt="Find Password" title="Find Password"/></h2>
 		<p class="desc">Insert your mail address registered.</br> We will send you temporary password for sign in via registered mail address.</p>
 		<p class="area-email input">
 			<label for="passwdEmail" class="form-title">E-mail</label><input type="text" id="passwdEmail" name="passwdEmail" class="input-text"/><span class="mark"></span>

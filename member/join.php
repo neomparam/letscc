@@ -141,20 +141,6 @@ Submit to finish or sign in with your facebook or twitter account.</p>
 		<p class="area-passwd-confirm input">
 			<label for="joinPasswdConfirm" class="form-title">Re-type Password</label><input type="password" id="joinPasswdConfirm" name="joinPasswdConfirm" class="input-text"/><span class="mark"></span>
 		</p>
-		<!--
-		<p class="area-policy check">
-			<input type="checkbox" id="policyAgree" name="policyAgree" value='y' /><label for="policyAgree">
-				<a href="../site_agreement.php" class="link-agreement" target="_blink" >이용약관</a>
-				<a href="../site_privacy.php" class="link-privacy" target="_blink" >개인정보취급 방침</a>	에 동의합니다</label>
-		</p>
-		//-->
-		<!--
-		<p class="area-policy check">
-			<label for="policyAgree">
-		I agree to the
-				<a href="../site_agreement.php" class="link-agreement" target="_blink" >Terms of Service</a>,
-				<a href="../site_privacy.php" class="link-privacy" target="_blink" >Privacy Policy </a>of CCK</label>
-		</p>//-->
         <input type="checkbox" id="policyAgree" name="policyAgree" value="y" style="display:none;" checked="checked" />
 		<p class="area-button">
 			<a href="#" class="btn-cancel"><img src="../i/btn_member_cancel.gif" alt="join cancel" title="join cancel" /></a>

@@ -10,8 +10,8 @@
 .favorite #body.all #searchResult div.doc {height:136px; overflow:hidden;}
 
 h2.title {display:block; margin:44px 0 0 40px;}
-div.desc {text-align:right; width:910px;height:55px;font-size:12px;font-family:돋움;color:#a2a2a2;margin:46px 0 0 18px;border-bottom:1px dotted #ccc;}
-div.desc span {color:#ff010d;display:block;font-size:16px;padding-bottom:2px;font-family:나눔고딕, NanumGothic, "맑은 고딕", "Malgun Gothic", "돋움", Helvetica, Arial, sans-serif;}
+div.desc {text-align:right; width:910px;height:55px;font-size:12px;font-family:Dotum;color:#a2a2a2;margin:46px 0 0 18px;border-bottom:1px dotted #ccc;}
+div.desc span {color:#ff010d;display:block;font-size:16px;padding-bottom:2px;font-family:NanumGothic, "Malgun Gothic", Dotum, Helvetica, Arial, sans-serif;}
 .favorite #searchType {position:relative; left:0; top:0; margin:10px 0 0 25px; border-bottom:none; overflow:hidden;}
 .favorite #searchType li {width:auto;height:20px; float:left;margin-left:-2px;background:url("i/favorite_navi_bar.gif") left 6px no-repeat;}
 .favorite #searchType li a {background-color:transparent; float:left; display:block; width:auto; padding:0 12px; height:20px; color:#212121; font-size:15px; font-weight:bold; line-height:20px; cursor:pointer;}

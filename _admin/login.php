@@ -1,5 +1,5 @@
 <style type="text/css">
-input.input_login {background-color:#FFFFFF; border:1px solid #e5e5e5; width:170px; height:18px; font-family:"돋움"; font-size:9pt; color: #638BA1; line-height:16px; LETTER-SPACING: -0.04em;}
+input.input_login {background-color:#FFFFFF; border:1px solid #e5e5e5; width:170px; height:18px; font-family:Dotum; font-size:9pt; color: #638BA1; line-height:16px; LETTER-SPACING: -0.04em;}
 #loginArea { width:100%; text-align:center; }
 #loginArea fieldset { position:relative;  }
 #loginArea h2 { font-weight:bold; font-size:18px; padding:20px 0;}

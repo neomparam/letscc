@@ -22,7 +22,6 @@ $loginUrl = $facebook->getLoginUrl(
 	)
 );
 
-//my favorite 정보
 $_SESSION['favorite_cidx'] ="";
 $_SESSION['favorite_keyword'] ="";
 

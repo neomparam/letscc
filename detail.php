@@ -136,7 +136,7 @@ $(function() {
 							<li><a href="/member/login.php?re_url=<?=$_SERVER['REQUEST_URI']?>">&gt; Go to the Sign in pagea</a></li>
 							<li><a href="/member/join.php?re_url=<?=$_SERVER['REQUEST_URI']?>">&gt; Go to the Sign up pagea</a></li>
 						</ul>
-						<p class="btns"><input type="button" class="btn-cancel" value="취소" /></p>
+						<p class="btns"><input type="button" class="btn-cancel" value="Cancel" /></p>
 					</div>
 					<dl>
 						<dt>Search for :</dt>
@@ -144,12 +144,12 @@ $(function() {
 					</dl>					
 					<form id="favoriteForm" name="favoriteForm" method="post" action="">
 					<fieldset>
-						<legend>즐겨찾기 추가 폼</legend>
+						<legend>Add To Favorite Form</legend>
 						<p class="tags">
 							<textarea type="text" id="favoriteTags" name="favoriteTags">divide your tags with comma(i.e. flower, start, )</textarea>
 						</p>
 						<p class="btns">
-							<input type="button" class="btn-cancel" value="취소" /><input type="button" class="btn-ok" value="즐겨찾기 추가"  />
+							<input type="button" class="btn-cancel" value="Cancel" /><input type="button" class="btn-ok" value="Add to Favorite"  />
 						</p>
 					</fieldset>
 					</form>

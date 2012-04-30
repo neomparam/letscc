@@ -160,7 +160,7 @@
 	<h1><a href="/"><img src="../i/logo_member.jpg" alt="Let's CC" title="Let's CC"/></a></h1>
 	<form name="mypage_form" id="mypage_form" action="modify_myinfo.php" method="post">
 	<fieldset>
-		<h2><img src="../i/title_modify_myinfo.gif" alt="정보수정" title="정보수정"/></h2>
+		<h2><img src="../i/title_modify_myinfo.gif" alt="Modify Info" title="Modify Info"/></h2>
 		<p class="desc"></p>
 		<p class="area-email" >
 			E-mail<span class="user-id"><?=$_SESSION['USER_ID']?></span>

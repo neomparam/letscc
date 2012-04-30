@@ -11,7 +11,7 @@
 
 <style type="text/css">
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,form,fieldset,p,button{margin:0;padding:0;}
-body,h1,h2,h3,h4,th,td,input{color:#333;font-family:"돋움",dotum,sans-serif;font-size:13px;font-weight:normal;}
+body,h1,h2,h3,h4,th,td,input{color:#333;font-family:dotum,sans-serif;font-size:13px;font-weight:normal;}
 hr{display:none;}
 img,fieldset{border:0;}
 ul,ol,li{list-style:none;}

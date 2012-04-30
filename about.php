@@ -22,7 +22,7 @@
 	font-size:16px;
 	letter-spacing:-1px;
 }
-#introArea dd { padding:15px 0 15px 20px;  line-height:19px; font-size:12px; color:#6e6e6e; font-family:"돋움"; }
+#introArea dd { padding:15px 0 15px 20px;  line-height:19px; font-size:12px; color:#6e6e6e; font-family:Dotum; }
 #introArea .img-1 {
 	float:left;
 	width:208px;
@@ -43,7 +43,7 @@
 #introArea .img-3 { padding-top:30px; }
 #introArea .img-4 { padding:10px 0; }
 #introArea dd ol { padding-left:15px; }
-#introArea dd ol li {  list-style-type:decimal; font-weight:bold; font-size:12px; color:#373737; font-family:"굴림"; }
+#introArea dd ol li {  list-style-type:decimal; font-weight:bold; font-size:12px; color:#373737; font-family:Gulim; }
 #introArea dd ol li span { color:#8f8f8f; }
 </style>
 

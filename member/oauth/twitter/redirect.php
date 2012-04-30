@@ -20,7 +20,6 @@ $re_url = ( trim($_GET["re_url"]) ) ? trim($_GET["re_url"]):"/";
 //$_SESSION['return_url'] = $_SERVER['HTTP_REFERER'];
 $_SESSION['return_url'] = $re_url;
 
-//my favorite 정보
 $_SESSION['favorite_cidx'] ="";
 $_SESSION['favorite_keyword'] ="";
 

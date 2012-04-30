@@ -160,7 +160,7 @@
 	<h1><a href="/"><img src="../i/logo_member.jpg" alt="Let's CC" title="Let's CC"/></a></h1>
 	<form name="login_form" id="login_form" action="login_proc.php" method="post">
 	<fieldset>
-		<h2><img src="../i/title_login.gif" alt="로그인" title="로그인"/></h2>
+		<h2><img src="../i/title_login.gif" alt="Sign In" title="Sign In"/></h2>
 		<p class="desc">submit your E-mail address and password or sign in with your facebook or twitter account.</p>
 		<p class="area-email input">
 			<label for="loginEmail" class="form-title">E-mail</label><input type="text" id="loginEmail" name="loginEmail" class="input-text"/><span class="mark"></span>

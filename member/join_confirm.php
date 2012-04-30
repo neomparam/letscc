@@ -99,7 +99,7 @@
 	<fieldset>
 		<input type="hidden" name="user_idx" value="<?=$_SESSION['USER_IDX']?>" />
 		<input type="hidden" name="re_url" value="<?=$re_url?>" />
-		<h2><img src="../i/title_join.gif" alt="로그인" title="로그인"/></h2>
+		<h2><img src="../i/title_join.gif" alt="Sign Up" title="Sign Up"/></h2>
 		<p class="desc">Registration will be done after adding additional information.</p>
 		<p class="area-confirm">
 			<div class='user-type'>Your newly registered account is following :<?=$_SESSION['USER_TYPE']?> </div>
