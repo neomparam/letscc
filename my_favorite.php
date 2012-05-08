@@ -227,8 +227,8 @@ CCMyFavoriteSearch.prototype.showPage = function(p) {
 			<div class="image type">
 				<h3><a href="">images</a></h3>
 				<div class="no-result">
-					<img class="not_added" src="i/no_favorite_result.gif" width="228" height="15" alt="아직 즐겨찾기한 내용이 없습니다." title="아직 즐겨찾기한 내용이 없습니다." />
-					<img class="not_searched" src="i/no_favorite_search_result.gif" width="148" height="15" alt="검색 결과가 없습니다." title="검색 결과가 없습니다." />
+					<img class="not_added" src="i/no_favorite_result.gif" width="228" height="15" alt="You haven't added any to Favorites yet." title="You haven't added any to Favorites yet." />
+					<img class="not_searched" src="i/no_favorite_search_result.gif" width="148" height="15" alt="No result was found." title="No result was found." />
 				</div>
 				<a href="#" class="more">+ More</a>		
 				<ul id="imageResult" class="image list">
@@ -240,8 +240,8 @@ CCMyFavoriteSearch.prototype.showPage = function(p) {
 			<div class="music type">
 				<h3><a href="">sounds</a></h3>
 				<div class="no-result">
-					<img class="not_added" src="i/no_favorite_result.gif" width="228" height="15" alt="아직 즐겨찾기한 내용이 없습니다." title="아직 즐겨찾기한 내용이 없습니다." />
-					<img class="not_searched" src="i/no_favorite_search_result.gif" width="148" height="15" alt="검색 결과가 없습니다." title="검색 결과가 없습니다." />
+					<img class="not_added" src="i/no_favorite_result.gif" width="228" height="15" alt="You haven't added any to Favorites yet." title="You haven't added any to Favorites yet." />
+					<img class="not_searched" src="i/no_favorite_search_result.gif" width="148" height="15" alt="No result was found." title="No result was found." />
 				</div>
 				<a href="#" class="more">+ More</a>				
 				<ul id="musicResult" class="music list">
@@ -253,8 +253,8 @@ CCMyFavoriteSearch.prototype.showPage = function(p) {
 			<div class="video type">
 				<h3>videos</h3>
 				<div class="no-result">
-					<img class="not_added" src="i/no_favorite_result.gif" width="228" height="15" alt="아직 즐겨찾기한 내용이 없습니다." title="아직 즐겨찾기한 내용이 없습니다." />
-					<img class="not_searched" src="i/no_favorite_search_result.gif" width="148" height="15" alt="검색 결과가 없습니다." title="검색 결과가 없습니다." />
+					<img class="not_added" src="i/no_favorite_result.gif" width="228" height="15" alt="You haven't added any to Favorites yet." title="You haven't added any to Favorites yet." />
+					<img class="not_searched" src="i/no_favorite_search_result.gif" width="148" height="15" alt="No result was found." title="No result was found." />
 				</div>
 				<a href="#" class="more">+ More</a>			
 				<ul id="videoResult" class="video list">
@@ -267,8 +267,8 @@ CCMyFavoriteSearch.prototype.showPage = function(p) {
 			<div class="doc type">
 				<h3>docs</h3>
 				<div class="no-result">
-					<img class="not_added" src="i/no_favorite_result.gif" width="228" height="15" alt="아직 즐겨찾기한 내용이 없습니다." title="아직 즐겨찾기한 내용이 없습니다." />
-					<img class="not_searched" src="i/no_favorite_search_result.gif" width="148" height="15" alt="검색 결과가 없습니다." title="검색 결과가 없습니다." />
+					<img class="not_added" src="i/no_favorite_result.gif" width="228" height="15" alt="You haven't added any to Favorites yet." title="You haven't added any to Favorites yet." />
+					<img class="not_searched" src="i/no_favorite_search_result.gif" width="148" height="15" alt="No result was found." title="No result was found." />
 				</div>
 				<a href="#" class="more">+ More</a>			
 				<ul id="docResult" class="doc list">

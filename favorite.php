@@ -113,7 +113,7 @@ CCFavoriteSearch.prototype.showPage = function(p) {
 <div id="wrap">
 <?require_once 'comm/inc.header.php';?>
     <div id="body" class="all">
-		<h2 class="title"><img src="i/title_favorite_cc.gif" alt="인기있는CC" title="인기있는CC" /></h2>
+		<h2 class="title"><img src="i/title_favorite_cc.gif" alt="Favorites" title="Favorites" /></h2>
         <div class="desc">
 			<span>Here are most featured contents</span>
         	You can look and check the most 'favorite' marked contents

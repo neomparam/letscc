@@ -14,7 +14,7 @@
 	if( $idx == "" )
 	{
 		$result['r'] = "error";
-		$result['msg'] = "해당 게시물이 없습니다.";
+		$result['msg'] = "The post does not exist.";
 	} 
 	else 
 	{
@@ -24,12 +24,12 @@
 		if( $del_re['cnt'] > 0 )
 		{
 			$result['r'] = "success";
-			$result['msg'] = "상태를 변경하였습니다.";
+			$result['msg'] = "Status is successfully modified.";
 		}
 		else
 		{
 			$result['r'] = "error";
-			$result['msg'] = "게시물 삭제 실패하였습니다.";
+			$result['msg'] = "Sorry, we failed to delete your post.";
 		}
 	}
 	

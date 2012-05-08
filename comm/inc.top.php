@@ -4,8 +4,8 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <title>Let's CC</title>
-<meta name="title" content="LetsCC:  CCL 콘텐츠 전문 검색 서비스" />
-<meta name="description" content="렛츠씨씨(LetsCC)는 사진/음악/동영상/문서의 CCL콘텐츠를 통합 검색하는 CCL 콘텐츠 전문 검색 서비스입니다." />
+<meta name="title" content="LetsCC: Search service especially for CCL contents" />
+<meta name="description" content="Let's CC uses APIs provided by Fiickr, Jamendo, ccMixter, Youtube and Slideshare, so you can find CC-licensed images, sounds, videos and docs at once with just one click." />
 
 <link rel="shortcut icon" href="/favicon.ico"/>
 

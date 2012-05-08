@@ -27,10 +27,10 @@ if( $type == "del" ) {
 
 	if( $Member->delMember($member_idx) ) {
 		$result['r'] = "success";
-		$result['msg'] = "회원정보를 삭제 하였습니다.";
+		$result['msg'] = "Your member information no longer exists.";
 	} else {
 		$result['r'] = "error";
-		$result['msg'] = "회원정보 삭제에 실패하였습니다.";
+		$result['msg'] = "Sorry, we failed to delete your member information.";
 	}
 }
 

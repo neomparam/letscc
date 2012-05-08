@@ -1,5 +1,5 @@
 <div class="fixed">
-	<div id="notice">알림 Notice user 님이 로그인 하셨습니다.</div>
+	<div id="notice">Notice: User logged in.</div>
 
 </div>
 <script type="text/javascript">

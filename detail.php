@@ -125,7 +125,7 @@ $(function() {
 		<h1><a href="/">Let's CC</a></h1>
 		<ul class="menu">
 			<li class="facebook"><div class="fb-like" data-href="<?='http://'.$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']?>" data-send="true" data-layout="button_count" data-width="90" data-show-faces="true"></div></li>
-			<li class="tweet"><a href="https://twitter.com/share" class="twitter-share-button" data-text="LetsCC 에서 멋진 자료를 찾았는데 같이봐요." data-count="horizontal" data-lang="eng">트윗하기</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script></li>
+			<li class="tweet"><a href="https://twitter.com/share" class="twitter-share-button" data-text="I found something cool to share on LetsCC!" data-count="horizontal" data-lang="eng">Tweet</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script></li>
 			<li class="favorite">
 				<span class="star"><a href="#">add favorite</a></span>
 				<div id="addFavorite">

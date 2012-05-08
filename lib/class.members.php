@@ -30,7 +30,7 @@ class clsMembers {
 			mysql_query($query,$this->conn) or die ("update query error!!");
 
 			$result['r'] = 'success';
-			$result['msg'] = "이미 가입된 회원 입니다.";
+			$result['msg'] = "You're already signed up.";
 			$result['idx'] = $row['idx'];
 			$result['policy_agree'] = $row['policy_agree'];
 		} else {
@@ -39,7 +39,7 @@ class clsMembers {
 
 			if( $res ) {
 				$result['r'] = 'success';
-				$result['msg'] = "회원 가입이 완료되었습니다.";
+				$result['msg'] = "Sign-up process is finished.";
 				$result['idx'] = mysql_insert_id();
 				$result['policy_agree'] = 'n';
 			}
@@ -64,13 +64,13 @@ class clsMembers {
 
 		if( $this->existEmail($array['email']) ) {
 			$result['r'] = 'error';
-			$result['msg'] = "이미 가입된 이메일 입니다.";
+			$result['msg'] = "Your email address is already registered.";
 		} else {
 			$query = "insert into members ( email, passwd, policy_agree, joindate, logindate ) values ( '".$array['email']."', '".md5($array['passwd'])."', '".$array['policy_agree']."', now(), now() )";
 			$res = mysql_query($query,$this->conn) or die ("insert query error!!");;
 
 			$result['r'] = 'success';
-			$result['msg'] = "회원 가입이 완료되었습니다.";
+			$result['msg'] = "Sign-up process is finished.";
 			$result['idx'] = mysql_insert_id();
 			$result['policy_agree'] = $array['policy_agree'];
 		}
@@ -134,12 +134,12 @@ class clsMembers {
 			} else {
 				$result['r'] = 'error';
 				$result['type'] = 'passwd';
-				$result['msg'] = "패스워드가 일치하지 않습니다.";
+				$result['msg'] = "Password is incorrect.";
 			}
 		} else {
 			$result['r'] = 'error';
 			$result['type'] = 'email';
-			$result['msg'] = "등록되지 않은 이메일 입니다.";
+			$result['msg'] = "Your email is not registered.";
 		}
 
 		return $result;
@@ -171,16 +171,16 @@ class clsMembers {
 			if( $res ) {
 				$result['r'] = "success";
 				$result['passwd'] = $tempPasswd;
-				$result['msg'] = "패스워드를 변경 하였습니다.";
+				$result['msg'] = "Your password is successfully modified.";
 			} else {
 				$result['r'] = 'error';
 				$result['type'] = 'passwd';
-				$result['msg'] = "패스워드 변경에 실패 하였습니다.";
+				$result['msg'] = "Sorry, we failed to modify your password.";
 			}
 		} else {
 			$result['r'] = 'error';
 			$result['type'] = 'email';
-			$result['msg'] = "등록되지 않은 이메일 입니다.";
+			$result['msg'] = "Your email is not registered.";
 		}
 
 		return $result;

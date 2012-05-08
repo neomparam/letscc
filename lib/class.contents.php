@@ -21,7 +21,7 @@ class clsContents {
 
 				$result['r'] = "exist";
 				$result['idx'] = $row['idx'];
-				$result['msg'] = "이미 등록되어 있는 콘텐츠 정보입니다.";
+				$result['msg'] = "The work information is already uploaded.";
 			} else {
 				$query = "insert into contents ( c_id, c_type, s_name, c_info, regdate )";
 				$query .= " values ( '".$array['c_id']."', '".$array['c_type']."', '".$array['s_name']."', '".$array['c_info']."', now() )";
@@ -30,10 +30,10 @@ class clsContents {
 				if( $res ) {
 					$result['r'] = "success";
 					$result['idx'] = mysql_insert_id();
-					$result['msg'] = "콘텐츠가 등록되었습니다.";
+					$result['msg'] = "Your work is successfully uploaded.";
 				} else {
 					$result['r'] = "error";
-					$result['msg'] = "콘텐츠 등록에 실패하였습니다.";
+					$result['msg'] = "Sorry, we failed to upload your work.";
 				}
 			}
 
@@ -41,7 +41,7 @@ class clsContents {
 
 		} else {
 			$result['r'] = 'error';
-			$result['msg'] = "콘텐츠 입력 정보가 올바르지 않습니다.";
+			$result['msg'] = "Work input information is incorrect.";
 		}
 
 		return $result;
@@ -61,10 +61,10 @@ class clsContents {
 			if( $res ) {
 				$result['r'] = "success";
 				$result['idx'] = mysql_insert_id();
-				$result['msg'] = "콘텐츠가 등록되었습니다.";
+				$result['msg'] = "Your work is successfully uploaded.";
 			} else {
 				$result['r'] = "error";
-				$result['msg'] = "콘텐츠 등록에 실패하였습니다.";
+				$result['msg'] = "Sorry, we failed to upload your work.";
 			}
 		}
 

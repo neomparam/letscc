@@ -11,7 +11,7 @@
 	} else {
 		echo ("
 			<script>
-				alert('관리자 정보가 일치하지 않습니다.');
+				alert('The admin information is incorrect.');
 				history.go(-1);
 			</script>
 		");

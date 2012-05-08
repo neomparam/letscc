@@ -47,7 +47,7 @@ $(function () {
 	$('.btn-del').click( function() {
 		var idx = $(this).siblings('.info-idx').text();
 
-		if( confirm("해당 회원의 모든 정보가 삭제되며 복구가 불가능 합니다.\n\n탈퇴하시겠습니까??") ) {
+		if( confirm("All your member information is about to be deleted and impossible to restore.\n\nAre you sure to quit?") ) {
 			$.ajax({
 				url:'proc.php', dataType:'json',type:'post', 
 				data:{

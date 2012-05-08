@@ -463,7 +463,7 @@
 						<span class="message"></span>
 					</p>
 					<p>
-						검색어 : <span class="search-text"><?=$searchWord?></span>
+						Search Word : <span class="search-text"><?=$searchWord?></span>
 					</p>
 					<p>
 						<label for="favoriteTags">Tags</label><input type="text" id="favoriteTags" name="favoriteTags" /><span class="check"></span>

@@ -68,10 +68,10 @@ class clsFavorites {
 
 		if( $res ) {
 			$result['r'] = 'success';
-			$result['msg'] = "정보가 수정되었습니다..";
+			$result['msg'] = "The information is successfully modified.";
 		} else {
 			$result['r'] = 'error';
-			$result['msg'] = "정보 수정에 실패하였습니다.";
+			$result['msg'] = "Sorry, we failed to modify the information.";
 		}
 
 		return $result;
@@ -141,10 +141,10 @@ class clsFavorites {
 		if( $res ) {
 			$result['r'] = 'success';
 			$result['cnt'] = $res;
-			$result['msg'] = "삭제 성공하였습니다.";
+			$result['msg'] = "Your work is successfully deleted.";
 		} else {
 			$result['r'] = 'error';
-			$result['msg'] = "삭제 실패하였습니다.";
+			$result['msg'] = "Sorry, we failed to delete your work.";
 		}
 		return $res;
 	}
@@ -161,10 +161,10 @@ class clsFavorites {
 		if( $res ) {
 			$result['r'] = 'success';
 			$result['cnt'] = $res;
-			$result['msg'] = "삭제 성공하였습니다.";
+			$result['msg'] = "Your work is successfully deleted.";
 		} else {
 			$result['r'] = 'error';
-			$result['msg'] = "삭제 실패하였습니다.";
+			$result['msg'] = "Sorry, we failed to delete your work.";
 		}
 		return $res;
 	}
@@ -182,10 +182,10 @@ class clsFavorites {
 		if( $res ) {
 			$result['c_idx'] = $data['c_idx'];
 			$result['r'] = 'success';
-			$result['msg'] = "삭제 성공하였습니다.";
+			$result['msg'] = "Your work is successfully deleted.";
 		} else {
 			$result['r'] = 'error';
-			$result['msg'] = "삭제 실패하였습니다.";
+			$result['msg'] = "Sorry, we failed to delete your work.";
 		}
 
 		return $result;
